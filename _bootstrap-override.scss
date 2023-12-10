@@ -1,0 +1,58 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "./assets/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+
+@import "./assets/bootstrap/scss/variables";
+@import "./assets/bootstrap/scss/variables-dark";
+
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
+@import "./assets/bootstrap/scss/maps";
+@import "./assets/bootstrap/scss/mixins";
+@import "./assets/bootstrap/scss/root";
+
+// 6. Optionally include any other parts as needed
+@import "./assets/bootstrap/scss/utilities";
+@import "./assets/bootstrap/scss/reboot";
+@import "./assets/bootstrap/scss/type";
+@import "./assets/bootstrap/scss/images";
+@import "./assets/bootstrap/scss/containers";
+@import "./assets/bootstrap/scss/grid";
+@import "./assets/bootstrap/scss/helpers";
+@import "./assets/bootstrap/scss/tables";
+@import "./assets/bootstrap/scss/forms";
+@import "./assets/bootstrap/scss/buttons";
+@import "./assets/bootstrap/scss/transitions";
+@import "./assets/bootstrap/scss/dropdown";
+@import "./assets/bootstrap/scss/button-group";
+@import "./assets/bootstrap/scss/nav";
+@import "./assets/bootstrap/scss/navbar";
+@import "./assets/bootstrap/scss/card";
+@import "./assets/bootstrap/scss/accordion";
+@import "./assets/bootstrap/scss/breadcrumb";
+@import "./assets/bootstrap/scss/pagination";
+@import "./assets/bootstrap/scss/badge";
+@import "./assets/bootstrap/scss/alert";
+@import "./assets/bootstrap/scss/progress";
+@import "./assets/bootstrap/scss/list-group";
+@import "./assets/bootstrap/scss/close";
+@import "./assets/bootstrap/scss/toasts";
+@import "./assets/bootstrap/scss/modal";
+@import "./assets/bootstrap/scss/tooltip";
+@import "./assets/bootstrap/scss/popover";
+@import "./assets/bootstrap/scss/carousel";
+@import "./assets/bootstrap/scss/spinners";
+@import "./assets/bootstrap/scss/offcanvas";
+@import "./assets/bootstrap/scss/placeholders";
+
+// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "./assets/bootstrap/scss/utilities/api";
+
+// 8. Add additional custom code here
